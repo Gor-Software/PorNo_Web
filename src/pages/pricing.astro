@@ -6,16 +6,16 @@ import PricingCard from "@components/pricing.astro";
 
 const pricing = [
   {
-    name: "Personal",
+    name: "Basic",
     price: "Free",
     popular: false,
     features: [
-      "Lifetime free",
-      "Up to 3 users",
-      "Unlimited Pages",
-      "Astro Sub domain",
-      "Basic Integrations",
-      "Community Support",
+      "Adult content blocking",
+      "Anonymous user mode",
+      "Up to 3 custom redirects",
+      "Live algorithm updates",
+      "Emergency helpline",
+      "Community support"
     ],
     button: {
       text: "Get Started",
@@ -23,7 +23,7 @@ const pricing = [
     },
   },
   {
-    name: "Startup",
+    name: "Premium",
     price: {
       monthly: "$19",
       annual: "$16",
@@ -32,12 +32,12 @@ const pricing = [
     },
     popular: true,
     features: [
-      "All Free Features",
-      "Up to 20 users",
-      "20 Custom domains",
-      "Unlimited Collaborators",
-      "Advanced Integrations",
-      "Priority Support",
+      "All free features",
+      "Custom ban-lists",
+      "Unlimited custom redirection",
+      "AI-powered URL analysis",
+      "Streak tracker",
+      "Password protection",
     ],
     button: {
       text: "Get Started",
@@ -49,12 +49,12 @@ const pricing = [
     price: "Custom",
     popular: false,
     features: [
-      "All Pro Features",
-      "Unlimited Custom domains",
-      "99.99% Uptime SLA",
-      "SAML & SSO Integration",
+      "All premium Features",
+      "Organizational insight reports",
       "Dedicated Account Manager",
-      "24/7 Phone Support",
+      "Admin access control",
+      "Tailored UI",
+      "24/7 Support",
     ],
     button: {
       text: "Contact us",
@@ -69,7 +69,7 @@ const pricing = [
     <Sectionhead>
       <Fragment slot="title">Pricing</Fragment>
       <Fragment slot="desc">
-        Simple & Predictable pricing. No Surprises.
+        Flexible solutions for you. No Surprises.
       </Fragment>
     </Sectionhead>
 

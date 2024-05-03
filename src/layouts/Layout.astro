@@ -11,15 +11,15 @@ export interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
 const resolvedImageWithDomain = new URL(
-  "public/opengraph_PorNo.jpg",
+  "public/opengraph.jpg",
   Astro.site
 ).toString();
 
 const { title } = Astro.props;
 
 const makeTitle = title
-  ? title + " | " + "PorNo!"
-  : "PorNo!";
+  ? title + " | " + "P*rNo!"
+  : "P*rNo!";
 ---
 
 <!DOCTYPE html>
