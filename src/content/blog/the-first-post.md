@@ -1,14 +1,14 @@
 ---
 draft: false
-title: "The Complete Guide to Full Stack Web Development"
+title: "The first post."
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
     src: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?&fit=crop&w=430&h=240",
     alt: "full stack web development"
 }
-publishDate: "2022-11-08 11:39"
-category: "Tutorials"
-author: "Janette Lynch"
+publishDate: "2024-5-03 2:39"
+category: "Journey"
+author: "The PorNo! Team"
 tags: [webdev, tailwindcss, frontend]
 ---
 
